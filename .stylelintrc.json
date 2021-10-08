@@ -1,0 +1,22 @@
+{
+	"extends": ["stylelint-config-recommended", "stylelint-config-standard"],
+	"rules": {
+		"at-rule-no-unknown": [
+			true,
+			{
+				"ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
+			}
+		],
+		"declaration-block-trailing-semicolon": null,
+		"no-descending-specificity": null,
+		"value-list-comma-newline-after": null,
+		"indentation": [
+			"tab",
+			{
+				"except": ["block"],
+				"message": "Please use 1 tab for indentation.",
+				"severity": "warning"
+			}
+		]
+	}
+}
