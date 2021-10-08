@@ -1,5 +1,5 @@
 <template>
-	<div>Gallery {{ name }}</div>
+	<div class="text-yellow-400">Gallery {{ name }}</div>
 </template>
 <script setup lang="ts">
 import { computed } from 'vue'
@@ -12,6 +12,3 @@ const name = computed(() => {
 	return store.state.user.name
 })
 </script>
-<!-- <style lang="scss" scoped>
-@import '@styles/gallery.scss';
-</style> -->

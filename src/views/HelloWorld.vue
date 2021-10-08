@@ -14,7 +14,7 @@ const count = ref(0)
 <template>
 	<div id="app">
 		<img class="rounded-sm" alt="Vue logo" src="@assets/logo.png" />
-		<h1>Hello Vue 3 + TypeScript + Vite</h1>
+		<h1 class="text-yellow-400">Hello Vue 3 + TypeScript + Vite</h1>
 
 		<p>
 			Recommended IDE setup:
@@ -44,7 +44,3 @@ const count = ref(0)
 		<p>Name in store is: {{ name }}</p>
 	</div>
 </template>
-
-<!-- <style lang="scss" scoped>
-@import '@styles/main.scss';
-</style> -->
